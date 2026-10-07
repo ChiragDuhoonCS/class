@@ -7,3 +7,10 @@ struct student {
 
 };
 
+int main() {
+    struct student s1;
+    s1.marks = 10;
+
+    printf("%d" , s1.marks);
+    return 0;
+}
