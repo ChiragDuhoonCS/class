@@ -9,6 +9,7 @@ int main() { //! int means it going to return some value where void means it wil
     int a; //@ declaration
     a = 5; //@ initialisation
 
-    printf("%d", a);
+    printf("%d", a); //! printf to display  %d is placeholder for int datatype
+    //@ %f for decimals %c for char %s for string
     return 0;
 }
