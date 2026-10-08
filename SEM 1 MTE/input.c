@@ -7,9 +7,14 @@
 int main() { //! int means it going to return some value where void means it will return nothing
 
     int a; //@ declaration
-    a = 5; //@ initialisation
+    //a = 5; //@ initialisation
+
+    scanf("%d", &a); //@ scanf to get input from user & means address of 
 
     printf("%d", a); //! printf to display  %d is placeholder for int datatype
     //@ %f for decimals %c for char %s for string
+    //@ lb for long int
+    //@ int take place of 4 byte char for 1 byte   string ends with null \0
+    //@ \n for newline 
     return 0;
 }
