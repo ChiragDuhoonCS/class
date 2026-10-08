@@ -16,5 +16,8 @@ int main() { //! int means it going to return some value where void means it wil
     //@ lb for long int
     //@ int take place of 4 byte char for 1 byte   string ends with null \0
     //@ \n for newline 
+
+    //@ ; for line end   which tell compiler that this 
+    
     return 0;
 }
