@@ -13,6 +13,8 @@ void q1 () {
     printf("\nThird Number:  ");
     scanf("%d" , &c);
 
+    printf("\n===========================\n");
+
     if( a >= b && a >= c) {
         printf("%d is largest number" , a);
     }
@@ -24,5 +26,12 @@ void q1 () {
     else {
         printf("%d is largest number" , c);
     }
+    
+    printf("\n===========================\n");
+
+}
+
+int main() {
+    q1();
     return 0;
 }
