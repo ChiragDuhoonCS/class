@@ -55,6 +55,10 @@ void q2() {
 
 }
 
+void q3() {
+    //! Develop a program to check whether a given number is prime or not
+}
+
 
 
 
