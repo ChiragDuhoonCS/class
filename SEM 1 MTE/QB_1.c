@@ -16,4 +16,13 @@ void q1 () {
     if( a >= b && a >= c) {
         printf("%d is largest number" , a);
     }
+
+    else if( b >= a && b >= c) {
+        printf("%d is largest number" , b);
+    }
+
+    else {
+        printf("%d is largest number" , c);
+    }
+    return 0;
 }
