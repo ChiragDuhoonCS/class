@@ -1,8 +1,11 @@
-//! Write a C program to find the largest among three numbers using decision-making statements.
+
 
 #include<stdio.h>
 
 void q1 () {
+
+    //! Write a C program to find the largest among three numbers using decision-making statements.
+
     int a,b,c;
     printf("First Number:  ");
     scanf("%d" , &a);
@@ -31,7 +34,31 @@ void q1 () {
 
 }
 
+void q2() {
+  //!  Write a C program to determine whether a given year is a leap year or not.
+
+  int year;
+  printf("Year:  ");
+    scanf("%d" , &year);
+
+  int a;
+  a= year/400 || year/4;
+
+
+  if(a==0){
+    printf("\n%d is leap year",year);
+  }
+  else {
+    printf("\n%d isn't leap year",year);
+
+  }
+
+}
+
+
+
+
 int main() {
-    q1();
+    q2();
     return 0;
 }
