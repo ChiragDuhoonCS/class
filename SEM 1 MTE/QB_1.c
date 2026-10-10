@@ -84,14 +84,14 @@ void q3() {
 }
 
 void q4() {
-  int n,a;
+  int n,a = 1;
 
   printf("Whats n: ");
   scanf("%d", &n);
 
-  for (int i = 2; i <= n; i++)
+  for (int i = 1; i <= n; i++)
   {
-    a += i * (i - 1);
+    a *= i;
   }
   
   printf("%d",a);
