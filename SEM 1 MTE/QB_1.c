@@ -83,10 +83,24 @@ void q3() {
 
 }
 
+void q4() {
+  int n,a;
+
+  printf("Whats n: ");
+  scanf("%d", &n);
+
+  for (int i = 2; i <= n; i++)
+  {
+    a += i * (i - 1);
+  }
+  
+  printf("%d",a);
+}
+
 
 
 
 int main() {
-    q3();
+    q4();
     return 0;
 }
