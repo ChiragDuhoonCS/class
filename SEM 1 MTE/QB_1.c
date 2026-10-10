@@ -57,6 +57,27 @@ void q2() {
 
 void q3() {
     //! Develop a program to check whether a given number is prime or not
+
+    int n,a;
+    printf("N:  ");
+    scanf("%d" , &n);
+
+    if(n < 1) {
+      printf("please enter valid number");
+    }
+
+    for (int i = 2; i < n; i++)
+    {
+      a = n/i;
+    }
+
+    if(a == 1) {
+      printf("NO its not prime number");
+    }
+    else{
+      printf("%d is prime number")
+    }
+
 }
 
 
