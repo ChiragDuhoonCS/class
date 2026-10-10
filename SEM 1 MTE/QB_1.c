@@ -68,14 +68,17 @@ void q3() {
 
     for (int i = 2; i < n; i++)
     {
-      a = n/i;
+      a = n%i;
+      if(a == 0) {
+      break;
+    }
     }
 
-    if(a == 1) {
-      printf("NO its not prime number");
+    if(a == 0) {
+      printf("%d is not prime number",n);
     }
     else{
-      printf("%d is prime number")
+      printf("%d is prime number",n);
     }
 
 }
@@ -84,6 +87,6 @@ void q3() {
 
 
 int main() {
-    q2();
+    q3();
     return 0;
 }
