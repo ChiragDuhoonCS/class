@@ -117,13 +117,14 @@ void q5() {
 void q6() {
   //! Develop a C program to find the sum of elements in a one-dimensional array.
 
-  int arr[5] = {2,4,5,67,5};
+  int arr[5] = {2,4,5,67,55};
   int sum;
 
   for (int i = 0; i < 5; i++)
   {
     sum += arr[i];
   }
+  printf("%d", sum);
   
 }
 
