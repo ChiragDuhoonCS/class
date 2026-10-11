@@ -128,10 +128,24 @@ void q6() {
   
 }
 
+void q7() {
+  //! Write a program to find the largest and smallest elements in an array.
+
+  int arr[5] = {2,4,5,67,55};
+  int ans;
+  
+  for (int i = 0; i < 4; i++)
+  {
+    if(arr[i] < arr[i+1]);
+    printf("%D",i);
+  }
+  
+}
+
 
 
 
 int main() {
-    q6();
+    q7();
     return 0;
 }
