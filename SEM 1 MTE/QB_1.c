@@ -84,6 +84,7 @@ void q3() {
 }
 
 void q4() {
+  //!  Develop a C program to calculate the factorial of a number using a for loop.
   int n,a = 1;
 
   printf("Whats n: ");
@@ -95,6 +96,14 @@ void q4() {
   }
   
   printf("%d",a);
+}
+
+void q5() {
+  //! Write a C program to demonstrate nested loops by printing a suitable pattern.
+
+  int n,i;
+
+  
 }
 
 
