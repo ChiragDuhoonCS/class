@@ -109,7 +109,7 @@ void q5() {
     {
       printf("*");
     }
-    
+    printf("\n");
   }
   
 }
