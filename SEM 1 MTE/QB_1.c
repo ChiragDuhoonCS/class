@@ -140,7 +140,10 @@ void q7() {
         if (arr[i] > largest) {
             largest = arr[i];
         }
-       
+        if (arr[i] < smallest) {
+            smallest = arr[i];
+        }
+    }
 
     printf("Largest element: %d\n", largest);
     printf("Smallest element: %d\n", smallest);
