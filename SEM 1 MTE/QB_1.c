@@ -101,8 +101,16 @@ void q4() {
 void q5() {
   //! Write a C program to demonstrate nested loops by printing a suitable pattern.
 
-  int n,i;
+  int n = 5;
 
+  for (int i = 0; i < n; i++)
+  {
+    for (int j = 0; j < i; j++)
+    {
+      printf("*");
+    }
+    
+  }
   
 }
 
@@ -110,6 +118,6 @@ void q5() {
 
 
 int main() {
-    q4();
+    q5();
     return 0;
 }
