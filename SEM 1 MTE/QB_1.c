@@ -187,10 +187,45 @@ void q7() {
     printf("%d\n",a);
     printf("%d",++a);
 
-    int a = 5;
     int b = a++;
     printf("%d %d", a, b); //! Important 
 
+
+  }
+
+  void q11() {
+    //! Switch statement
+
+    int t;
+    printf("Whats t: ");
+    scanf("%d",&t);
+
+    switch (t)
+    {
+    case 1:
+      printf("You typed %d",t);
+      break;
+
+    case 2:
+      printf("You typed %d",t);
+      break;
+    
+
+    case 3:
+      printf("You typed %d",t);
+      break;
+    
+
+    case 4:
+      printf("You typed %d",t);
+      break;
+    
+    
+    default:
+      printf("You typed nothing");
+
+      break;
+    }
 
   }
 
@@ -204,6 +239,6 @@ void q7() {
 }*/
 
 int main() {
-    q10();
+    q11();
     return 0;
 }
