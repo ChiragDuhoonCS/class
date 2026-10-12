@@ -165,6 +165,7 @@ void q7() {
   }
 
   void q9() {
+    //! ternary o[erator]
     int a,b;
     
     printf("Whats a: ");
@@ -176,16 +177,29 @@ void q7() {
 
   }
 
+  void q10() {
 
-/int main() {
+    //! PRE/POST INCREMENT ⭐
+
+    int a = 5;
+
+    printf("%d\n",a++);
+    printf("%d\n",a);
+    printf("%d",++a);
+
+
+  }
+
+
+/*/int main() {
   int n;
   printf("Whats n: ");
   scanf("%d",&n);
 
   printf("%d", factorial(n));
-}
-
-/*int main() {
-    q7();
-    return 0;
 }*/
+
+int main() {
+    q10();
+    return 0;
+}
