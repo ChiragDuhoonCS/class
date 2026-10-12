@@ -152,6 +152,7 @@ void q7() {
 
 
   int factorial(int n){
+    //! factorial by recurance
 
     if (n == 0 || n == 1){
       return 1;
@@ -163,8 +164,20 @@ void q7() {
     }
   }
 
+  void q9() {
+    int a,b;
+    
+    printf("Whats a: ");
+    scanf("%d",&a);
+    printf("\nWhats b: ");
+    scanf("%d",&b);
 
-int main() {
+    a > b ? printf("\nyup a is greater than b") : printf("\nNope a is not greater than b");
+
+  }
+
+
+/int main() {
   int n;
   printf("Whats n: ");
   scanf("%d",&n);
