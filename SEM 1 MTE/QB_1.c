@@ -229,6 +229,32 @@ void q7() {
 
   }
 
+  int q12() {
+    //! Array input and display
+
+    int q;
+    printf("Whats q: ");
+    scanf("%d",&q);
+
+    int arr[q];
+
+    printf("Enter array values:\n");
+    for (int i = 0; i < q; i++)
+    {
+      scanf("%d",&arr[i]);
+      printf("\n");
+    }
+
+    printf("Here is your array: ");
+    for (int i = 0; i < q; i++)
+    {
+      printf("%d ,",arr[i]);
+    }
+    
+    
+    
+  }
+
 
 /*/int main() {
   int n;
@@ -239,6 +265,6 @@ void q7() {
 }*/
 
 int main() {
-    q11();
+    q12();
     return 0;
 }
