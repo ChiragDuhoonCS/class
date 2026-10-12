@@ -152,13 +152,13 @@ void q7() {
 
 
   int factorial(int n){
-    int f;
+
     if (n == 0 || n == 1){
       return 1;
     }
     else {
-      f = n*factorial(n-1);
-     return f;
+      n*factorial(n-1);
+     return n*factorial(n-1); ;
 
     }
   }
@@ -169,8 +169,7 @@ int main() {
   printf("Whats n: ");
   scanf("%d",&n);
 
-  factorial(n);
-  printf("%d",f)
+  printf("%d", factorial(n));
 }
 
 /*int main() {
