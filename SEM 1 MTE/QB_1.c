@@ -187,6 +187,10 @@ void q7() {
     printf("%d\n",a);
     printf("%d",++a);
 
+    int a = 5;
+    int b = a++;
+    printf("%d %d", a, b); //! Important 
+
 
   }
 
