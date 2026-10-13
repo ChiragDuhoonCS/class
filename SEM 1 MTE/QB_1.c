@@ -313,14 +313,7 @@ void q7() {
         }
     }
 
-    //% SUM OF TWO MATRIX
-    for (i = 0; i < rows; i++)
-    {
-        for (j = 0; j < cols; j++)
-        {
-            sum[i][j] = a[i][j] + b[i][j]; //% SUM MATRIX ITS DIFF
-        }
-    }
+    
 
     //% DISPLAY OF MATRIX
     printf("Sum of the two matrices:\n");
