@@ -343,19 +343,7 @@ void q7() {
     }
   }
 
-  int q17() {
-    //! Write a program to demonstrate passing an array to a function.
 
-    int arr[5];
-    q17b(arr);
-    return 0;
-  }
-
-
-/*/int main() {
-  int n;
-  printf("Whats n: ");
-  scanf("%d",&n);
 
   printf("%d", factorial(n));
 }*/
