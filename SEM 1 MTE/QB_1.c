@@ -250,9 +250,38 @@ void q7() {
     {
       printf("%d ,",arr[i]);
     }
+     
     
-    
-    
+  }
+
+
+  //! Tricky Output Questions 
+  int q13() {
+    int x = 5;
+
+ if(x = 10)
+    printf("YES");
+ else
+    printf("NO");
+
+    //@ is assignment, not comparison
+
+  }
+
+  int q14() {
+    //! flag 
+    int x = 0; //@ x = 0 here means false
+
+  if(x)
+    printf("A");
+  else
+    printf("B");
+  }
+
+  int q15() {
+    //! 2D Array
+    int matrix[2][2] = {{1, 2}, {3, 4}};
+    printf("%d", matrix[1][0]);
   }
 
 
@@ -265,6 +294,6 @@ void q7() {
 }*/
 
 int main() {
-    q12();
+    q15();
     return 0;
 }
