@@ -36,6 +36,13 @@ int main() {
         return 1;
     }
 
+    printf("Fibonacci Series: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", fibonacci(i));
+    }
+    printf("\n");
+
+    return 0;
 }
 }
 
