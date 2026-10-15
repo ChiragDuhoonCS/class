@@ -9,4 +9,10 @@ int afnx(int n) {
 
 int main() {
     int n;
-  
+    printf("Whats n: ");
+    scanf("%d" , &n);
+
+    int result = afnx(n);
+    printf("Here is your ans: %d", result);
+    return 0;
+}
