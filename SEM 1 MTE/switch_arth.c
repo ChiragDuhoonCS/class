@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&num1);
 
     printf("Enter Operator: ");
-    scanf("%c",&operator);
+    scanf(" %c",&operator);
 
     printf("Enter Number 2: ");
     scanf("%d",&num2);
@@ -21,4 +21,26 @@ int main() {
         printf("%d + %d = %.2lf",num1,num2, result);
         break;
 
+    case '-':
+        result = num1-num2;
+        printf("%d - %d = %.2lf",num1,num2, result);
+        break;
+        
+    case '*':
+        result = num1*num2;
+        printf("%d * %d = %.2lf",num1,num2, result);
+        break;
+
+
+    case '/':
+        result = num1/num2;
+        printf("%d / %d = %.2lf",num1,num2, result);
+        break;
+    
+    default:
+    printf("Inalid! Operator");
+        break;
+    }
+
+    return 0;
 }
