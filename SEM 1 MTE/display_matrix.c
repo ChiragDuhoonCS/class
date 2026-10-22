@@ -2,13 +2,13 @@
 
 int main() {
     int arr[3][2] = {{76, 32}, {34, 65}, {90, 98}};
-    int n 
+    int n = sizeof(arr)/sizeof(arr[0]);
 
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
-            printf("%d",arr[i][j]);
+            printf("%d , ",arr[i][j]);
         }
         
     }
