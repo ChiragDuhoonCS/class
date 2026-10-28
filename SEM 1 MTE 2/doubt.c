@@ -40,7 +40,19 @@ int r()
 
 #include <stdio.h>
 
-i
+int q()
+{
+    int a[5] = {1, 2, 3, 4, 5};
+
+    printf("a       = %p\n", (void *)a);
+    printf("&a[0]   = %p\n", (void *)&a[0]);
+    printf("&a      = %p\n", (void *)&a);
+
+    printf("a + 1   = %p\n", (void *)(a + 1));
+    printf("&a + 1  = %p\n", (void *)(&a + 1));
+
+    return 0;
+}
 
 int main() {
     q();
