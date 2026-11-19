@@ -4,10 +4,13 @@
 int main(){
     char string[] = "Chirag";
     char string2[] = "Duhoon";
-    char copy[] = "";
+    char copy[30] = "";
     
 
     printf("String length: %zp\n",strlen(string));
-    printf("Copy of : %s",strcpy(copy,string));
+    printf("Copy of : %s\n",strcpy(copy,string));
+    printf("Copy Limited Character : %s\n",strncpy(copy,string,3));
+    printf("Join Two Strings : %s ",strcat(string,string2));
+    
     return 0;
 }
